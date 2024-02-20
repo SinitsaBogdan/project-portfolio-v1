@@ -1,0 +1,30 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 24px;
+}
+.card__img-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.card__img {
+	flex-grow: 1;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+.card__info {
+	z-index: -1;
+	margin-top: -6px;
+	border-radius: 0 0 26px 26px;
+	padding: 24px 24px;
+	background-color: rgb(246, 246, 246);
+}
+.card__info-title {
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+.card__info-text {
+	margin-top: 0.5em;
+	color: var(--global-color-text-gray);
+}
