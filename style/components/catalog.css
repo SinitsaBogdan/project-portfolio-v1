@@ -1,0 +1,20 @@
+.catalog {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 128px 0;
+}
+.catalog__title {
+	padding-bottom: 41px;
+}
+.catalog__info-date {
+	color: var(--global-color-text-gray);
+}
+.catalog__list {
+	column-gap: 3em;
+	column-count: 2;
+}
+.catalog__list-item {
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
