@@ -21,7 +21,7 @@
 	background-color: rgb(246, 246, 246);
 }
 .card__info-title {
-	letter-spacing: 0.16em;
+	letter-spacing: var(--global-title-letter-spacing);
 	text-transform: uppercase;
 }
 .card__info-text {
