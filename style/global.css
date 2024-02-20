@@ -1,5 +1,6 @@
 :root {
-	--global-wrapper-width: 1440px;
+	--global-wrapper-width: 90%;
+	--global-title-letter-spacing: 0.18em;
 	--global-color-text-black: #000;
 	--global-color-text-gray: #757575;
 }
