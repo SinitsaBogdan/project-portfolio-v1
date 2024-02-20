@@ -1,0 +1,18 @@
+.firstscrean {
+	padding: 14vh 0 4vh;
+}
+.firstscrean__title {
+	width: 900px;
+	font-size: 64px;
+	letter-spacing: 1px;
+}
+.firstscrean__title_post {
+	color: var(--global-color-text-gray);
+}
+.firstscrean__description {
+	width: 700px;
+	margin-top: 5vh;
+	color: var(--global-color-text-gray);
+	font-size: 22px;
+	letter-spacing: 1.2px;
+}
